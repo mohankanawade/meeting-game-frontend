@@ -16,6 +16,7 @@ function Quiz() {
 
   useEffect(() => {
     fetchQuiz();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [meetingId]);
 
   const fetchQuiz = async () => {

@@ -10,6 +10,7 @@ function Leaderboard() {
 
   useEffect(() => {
     fetchLeaderboard();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [meetingId]);
 
   const fetchLeaderboard = async () => {
